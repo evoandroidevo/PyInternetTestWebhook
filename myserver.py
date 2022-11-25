@@ -1,7 +1,6 @@
 from flask import Flask, request, abort #https://devopslifecycle.com/lessons/3/receiving-webhooks-with-python
 import requests
 import functools
-import time
 import http.client as httplib
 import threading
 from retry import retry
